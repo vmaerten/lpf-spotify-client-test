@@ -6,6 +6,7 @@ import requests
 import re
 import os
 import subprocess
+import sys
 
 def runme(cmd, env, cwd='.'):
     """Simple function to run a command and return 0 for success, 1 for
